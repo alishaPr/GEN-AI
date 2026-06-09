@@ -6,7 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 dotenv.config();
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
@@ -132,5 +132,5 @@ Rules:
 });
 
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
