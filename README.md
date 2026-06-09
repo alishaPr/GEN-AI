@@ -289,7 +289,7 @@ npm run dev
 Backend:
 
 ```text
-http://localhost:3001
+https://ai-wellness-backend-q0ui.onrender.com
 ```
 
 ---

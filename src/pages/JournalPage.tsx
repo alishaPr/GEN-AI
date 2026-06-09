@@ -58,7 +58,7 @@ ${result.action}
       setLoading(true);
       setMessage("");
 
-      const response = await fetch("http://localhost:3001/api/journal", {
+      const response = await fetch("https://ai-wellness-backend-q0ui.onrender.com/api/journal", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

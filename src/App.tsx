@@ -124,7 +124,7 @@ function App() {
   async function callAffirmationApi(
     inputMood: string
   ): Promise<AffirmationResponse> {
-    const response = await fetch("http://localhost:3001/api/affirmation", {
+    const response = await fetch("https://ai-wellness-backend-q0ui.onrender.com/api/affirmation", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
